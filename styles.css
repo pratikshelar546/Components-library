@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 hr{
     margin: 1.5rem 0rem;
@@ -17,7 +18,8 @@ hr{
 }
 .container-center{
     margin: auto;
-    max-width: 600px;
+    max-width: 900px;
+    text-align: center;
 }
 
 .link{
@@ -50,7 +52,7 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
    
 }
@@ -79,12 +81,12 @@ hr{
     max-width: 400px;
     display: block;
 }
-.head .head-title{
+.head-title{
     text-align: center;
     padding: 1rem;
     color: var(--gray-color);
 }
-.head .head-focus{
+.head-focus{
     color: var(--primary-color) ;
 }
 
@@ -109,4 +111,25 @@ background-color: var(--off-white-color);
 .footer .link{
     color: white;
     padding-inline-start:0px;
+}
+.footer-title{
+    font: bold;
+    font-weight: bold;
+    font-size: large;
+}
+.container-front{
+    padding: 1rem 0rem;
+}
+
+/* .dummyblog-heading{
+    font-weight: bolder;
+    font: bold;
+    font-size: 20px;
+    text-align: left;
+} */
+.showcase-blog{
+    margin: auto;
+    max-width: 900px;
+  
+    padding: 1rem;
 }

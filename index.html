@@ -1,114 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1>This is Pratik's Component Library</h1>
-    <p>
-      I am attending neog camp.this Library is to look my project good.this is
-      "p" tag.in that you write paragraph or a simple text.
-    </p>
-    <!-- hr tag is for that line -->
-    <hr />
-    <h2>@typography</h2>
-    <h1>This is biggest heading</h1>
-    <h2>This is second biggest heading</h2>
-    <p>
-      This is normal text.this is free flowing text and it wrap end like
-      paragraph
-    </p>
-    <small>This is normal small text </small>
-
-    <hr />
-
-    <h2>@containers</h2>
-    <h3>Fluid container</h3>
-    <div  class="container">This is fluid container and it will go till end of page</div>
-    <h3>Center container</h3>
-    <div class="container container-center">This is center container it will stick to the center of page</div>
-
-    <hr />
-    <h2>@Links</h2>
-    <a class="link link-primary" href="/">primary link</a>
-    <a class="link link-secondary" href="/">secondary link</a>
-
-    <hr />
-    <h2>@Lists</h2>
-    <h3 >This is unordered list</h3>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Pratik portfolio</title>
+  <link href="styles.css " rel="stylesheet" />
+</head>
+<body>
+  <nav class="navigation">
+    <div class="nav-title">Pratik's portfolio</div>
     <ul class="non-bullet">
-      <li>item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
+      <li class="inline"><a class="link link-active" href="/">Home</a></li>
+      <li class="inline"><a class="link" href="/project.html">Project</a></li>
+      <li class="inline"><a class="link" href="/blogs.html">Blogs</a></li>
     </ul>
-    <h3>This is unordered Inline List</h3>
-    <ul class="non-bullet">
-      <li class="inline">item one inline</li>
-      <li class="inline">Item two inline</li>
-      <li class="inline">Item three inline</li>
-    </ul>
-
-    <h3>This is reversed oreder list</h3>
-    <ol reversed>
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ol>
-    <hr />
-    <h2>@nav</h2>
-    <h3>This is navbar</h3>
-    <nav class="navigation">
-      <div class="nav-title">IamNavbar</div>
-      <ul class="non-bullet">
-        <li class="inline"><a class="link link-active" href="/">Home</a></li>
-        <li class="inline"><a class="link" href="/">Product</a></li>
-        <li class="inline"><a class="link" href="/">About</a></li>
-      </ul>
-    </nav>
-    <hr />
-    <h2 class="">@Header</h2>
-
-    <header class="head">
-        <img class="head-img" src="images/code.svg" />
-      <h1 class="head-title">Adarsh balika is a <span class="head-focus"> Web Devloper</span>
-      </h1>
-    </header>
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
-      <div class="container-center">
-        <h1>White section</h1>
-        <p>The cascade is an algorithm that defines how user agents combine property values originating from different sources. The cascade defines the origin and layer that takes precedence when declarations in more than one origin or cascade layer set a value for a property on an element.</p>
+  </nav>
+  <header class="head">
+    <img class="head-img" src="/images/code.svg" />
+  <h1 class="head-title">Welcome to Pratik portfolio<span class="head-focus"> Web Devloper</span>
+  </h1>
+</header>
+<div class="container-front">
+<section class="section ow">
+  <div class="container-center">
+    <h1>Technologies</h1>
+    <p>I'm familiar with HTML5, CSS3, Git, JavaScript, Bootstrap, Sql, MERN And Web Hosting</p>
+    </div>
+  </section>
+</div>
+<div class="container-front">
+  <section class="section">
+    <div class="container-center">
+      <h1>Projects</h1>
+      <p>I like to showcase my work and thus, you can see my projects that hosted online</p>
+      <a class="link link-primary" href="project.html">See Projects</a>
       </div>
     </section>
+  </div>
+  <div class="container-front">
     <section class="section ow">
       <div class="container-center">
-        <h1>off-white section</h1>
-        <p>The cascade is an algorithm that defines how user agents combine property values originating from different sources. The cascade defines the origin and layer that takes precedence when declarations in more than one origin or cascade layer set a value for a property on an element.</p>
+        <h1>Blogs</h1>
+        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        <a class="link link-primary" href="project.html">Read Blogs</a>
         </div>
-    </section>
-    <hr>
-    <h2>@Footer</h2>
-    <footer class="footer">
-        <div >This is footer</div>
-        <ul class="link non-bullet">
-            <li class="inline">
-                <a class="link" href="/">Scoials</a>
+      </section>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-title">Scoial media presence</div>
+    <ul class="link non-bullet">
+        <li class="inline">
+            <a class="link" href="/">GitHub</a>
 
-            </li>
-            <li class="inline ">
-                <a class="link" href="/">call</a>
-                
-            </li>
-            <li class="inline">
-                <a class="link" href="/">email</a>
-                
-            </li>
-        </ul>
-    </footer>
-  </body>
+        </li>
+        <li class="inline ">
+            <a class="link" href="/">twitter</a>
+            
+        </li>
+        <li class="inline">
+            <a class="link" href="/">Linkdin</a>
+            
+        </li>
+    </ul>
+</footer>
+</body>
 </html>
