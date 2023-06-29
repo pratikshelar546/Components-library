@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+:root{
+    --primary-color: rgb(59 130 246 / 1);
+    --gray-color:#64748b;
+    --off-white-color:#e9e9e9;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+hr{
+    margin: 1.5rem 0rem;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.container-center{
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    padding: 1rem orem;
+    
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+.link-secondary{
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+.color{
+    color: var(--primary-color);
+}
+.bgcolor{
+    background-color: var(--primary-color);
+}
+
+.non-bullet{
+    list-style: none;
+}
+.inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    /* padding: 0.5rem; */
+    border-bottom-left-radius: 1rem;
+   
+}
+.navigation .nav-title{
+    font: bold;
+    font-size: large;
+}
+.navigation .link{
+    color: white;
+    padding: 1rem;
+    
+}
+.navigation .non-bullet{
+    text-align: right;
+   
+
+}
+.navigation .link-active{
+    font: bold;
+}
+.head{
+    padding: 2rem;
+}
+.head .head-img{
+    margin: auto;
+ 
+    
+}
+.head-title{
+    text-align: center;
+    padding: 1rem;
+    color: var(--gray-color);
+}
+.head-focus{
+    color: var(--primary-color) ;
+}
+
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+.section.ow{
+background-color: var(--off-white-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 1rem 0rem;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+.footer .link{
+    color: white;
+    padding-inline-start:0px;
+}
+.footer-title{
+    font: bold;
+    font-weight: bold;
+    font-size: large;
+}
+.container-front{
+    padding: 1rem 0rem;
+}
+
+/* .dummyblog-heading{
+    font-weight: bolder;
+    font: bold;
+    font-size: 20px;
+    text-align: left;
+} */
+.showcase-blog{
+    margin: auto;
+    max-width: 900px;
+  
+    padding: 1rem;
+}
