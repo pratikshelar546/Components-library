@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../images/code.svg";
-import { Link } from "react-router-dom";
+
 import Project from "./project";
 
 // import {FaHtml5} from "react-icons/fa"
