@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <header className="head  ">
         <main className="flex lg:flex-row md:flex-row flex-col justify-between md:mr-16">
-          <div>
+        <div>
             <img className="head-img lg:max-w-xl " alt="" src={image} />
           </div>
           <div className=" justify-center flex flex-col ">
@@ -20,7 +20,7 @@ const Home = () => {
               I am Full Stack Web Developer{" "}
             </h1>
           </div>
-
+          
         </main>
       </header>
       <div className="container-front">
@@ -44,12 +44,12 @@ const Home = () => {
                 <h1>Web Hosting:</h1>
                 <h1>Netlify</h1>
               </div>
-
+           
             </div>
           </div>
 
         </section>
-        <Project />
+        <Project/>
 
       </div>
       {/* <div className="container-front">

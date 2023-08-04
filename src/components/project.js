@@ -204,17 +204,17 @@ const project = () => {
           </h1>
           <div className="">
             <div className="grid grid-cols-1 w-full gap-8  relative justify-center">
-              {projects.map((data,each) => {
+              {projects.map((data, each) => {
                 return (
                   <>
                     <div className="w-full md:h-96 h-full md:p-0 p-5  flex  md:flex-row flex-col mb-12" key={each}>
                       <img alt={data.name} src={data.image} className=" md:w-3/5 w-full h-full object-fill hover:scale-105 cursor-pointer transition duration-500" />
                       <div className="flex flex-col align-middle gap-4 justify-center">
-                      <h1 className=" color text-3xl">{data.name}</h1>
-                      <p className="text-xl">{data.description}</p>
-                      <div className="gap-7 flex text-xl">
-                        {data.viewSite?   <a className="bgcolor rounded-lg px-5 py-2 text-white" href={data.viewSite}>Visit site</a>:null}
-                      <a className=" rounded-lg px-5 py-2 color border border-[--primary-color]" href={data.gitHubLink}>Source Code</a>
+                        <h1 className=" color text-3xl">{data.name}</h1>
+                        <p className="text-xl">{data.description}</p>
+                        <div className="gap-7 flex text-xl">
+                          {data.viewSite ? <a className="bgcolor rounded-lg px-5 py-2 text-white" href={data.viewSite}>Visit site</a> : null}
+                          <a className=" rounded-lg px-5 py-2 color border border-[--primary-color]" href={data.gitHubLink}>Source Code</a>
                         </div>
                       </div>
                     </div>
@@ -225,7 +225,7 @@ const project = () => {
           </div>
         </div>
       </main>
-    
+
     </>
   );
 };
