@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
      <nav className="navigation flex flex-row justify-between p-5">
-    <div className="nav-titl text-2xl">Pratik's portfolio</div>
+    <div className=" md:text-2xl">Pratik's portfolio</div>
     <div>
     <ul className="non-bullet">
       <li className="inline"><Link className="link link-active" to="/">Home</Link></li>
