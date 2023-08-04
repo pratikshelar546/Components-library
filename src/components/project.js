@@ -207,7 +207,7 @@ const project = () => {
               {projects.map((data,each) => {
                 return (
                   <>
-                    <div className="w-full h-96  gap-6   flex flex-row mb-12" key={each}>
+                    <div className="w-full h-96  gap-6   flex lg:flex-row md:flex-row flex-col mb-12" key={each}>
                       <img alt={data.name} src={data.image} className=" w-3/5 h-full object-fill hover:scale-105 cursor-pointer transition duration-500" />
                       <div className="flex flex-col align-middle gap-4 justify-center">
                       <h1 className=" color text-3xl">{data.name}</h1>
