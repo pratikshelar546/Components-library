@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <header className="head  ">
-        <main className="flex flex-row justify-between mr-16">
+        <main className="flex lg:flex-row md:flex-row sm:flex-col justify-between mr-16">
         <div>
             <img className="head-img max-w-xl" alt="" src={image} />
           </div>
