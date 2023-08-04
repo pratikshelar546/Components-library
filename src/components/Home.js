@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <header className="head  ">
-        <main className="flex lg:flex-row md:flex-row sm:flex-col justify-between mr-16">
+        <main className="flex lg:flex-row md:flex-row flex-col justify-between mr-16">
         <div>
             <img className="head-img max-w-xl" alt="" src={image} />
           </div>
@@ -16,7 +16,7 @@ const Home = () => {
             <h1 className="head-title text-4xl">
               Welcome to Pratik's portfolio
             </h1>
-            <h1 className="head-focus text-sm text-center">
+            <h1 className="head-focus text-5xl text-center">
               I am Full Stack Web Developer{" "}
             </h1>
           </div>
